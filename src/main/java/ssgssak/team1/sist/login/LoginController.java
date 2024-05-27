@@ -21,6 +21,6 @@ public class LoginController {
 	public String Login(Locale locale, Model model) {
 		log.info(" > loginController get in... ");
 		
-		return "/member/loginPage_Form";
+		return "/member/loginPage_new_Form";
 	}
 }
